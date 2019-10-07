@@ -1,0 +1,13 @@
+name: hello-wallx-arm
+version: '1.0'
+summary: Hello World developed on Arm processor.
+description: 'Raspberry PI CPU running Ubuntu Server 18.04.
+
+'
+architectures:
+- arm64
+confinement: strict
+grade: stable
+apps:
+  hello:
+    command: command-hello.wrapper
